@@ -79,13 +79,13 @@ split(11)
 ```
 
 ## 解析目录
-[vue源码解析（基于2.6.11版本）](/vue-2.x（2.6.11）)
-    [compiler（编译相关）](/vue-2.x（2.6.11）/compiler)
-    [core（核心代码）](/vue-2.x（2.6.11）/core)
-    [platforms（不同平台的支持）](/vue-2.x（2.6.11）/platforms)
-    [server（服务端渲染）](/vue-2.x（2.6.11）/server)
-    [sfc（.vue 文件解析）](/vue-2.x（2.6.11）/sfc)
-    [shared（共享代码）](/vue-2.x（2.6.11）/shared)
+- [vue源码解析（基于2.6.11版本）](/vue-2.x（2.6.11）)
+    - [compiler（编译相关）](/vue-2.x（2.6.11）/compiler)
+    - [core（核心代码）](/vue-2.x（2.6.11）/core)
+    - [platforms（不同平台的支持）](/vue-2.x（2.6.11）/platforms)
+    - [server（服务端渲染）](/vue-2.x（2.6.11）/server)
+    - [sfc（.vue 文件解析）](/vue-2.x（2.6.11）/sfc)
+    - [shared（共享代码）](/vue-2.x（2.6.11）/shared)
 
 
 ## 源码目录详细说明
