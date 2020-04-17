@@ -18,6 +18,8 @@
 |码小趣|[maxiaoqu](https://github.com/maxiaoqu) |  ![](https://avatars1.githubusercontent.com/u/25891598?s=60&v=4)|http://blog.maxiaoqu.com|http://www.maxiaoqu.com|maxiaoqu@gmail.com
 
 ## 阅读前需要准备的知识
+- [需要准备的知识](https://www.jianshu.com/p/c914ccd498e7)
+在这里列举几个比较重要的
 ### 一、flow
 做为了解
 - [flow官方](https://flow.org/en/docs/getting-started/)是 facebook 出品的 JavaScript 静态类型检查工具。Vue.js 的源码利用了 Flow 做了静态类型检查，所以了解 Flow 有助于我们阅读源码。
@@ -46,9 +48,9 @@ flow
 ```
 从这个目录可以看到，Vue.js 有很多自定义类型的定义，在阅读源码的时候，如果遇到某个类型并想了解它完整的数据结构的时候，可以回来翻阅这些数据结构的定义。 
 
-#### Flow 在 Vue.js 源码中的应用
-```shell
-【注意：/*@flow*/是他的标准声明方式】
+#### Flow书写案例
+```js
+//【注意：/*@flow*/是他的标准声明方式】
 /*@flow*/
 function split(str) {
   return str.split(' ')
@@ -57,7 +59,7 @@ split(11)
 ```
 
 ### 二、原生JavaScript
-要有一定的原生 JavaScript 的功底
+要有一定的原生 JavaScript 的功底，尤其对数组、对象的操作得特别清楚
 - [JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 - [w3school](https://www.w3school.com.cn/js/index.asp)
 
@@ -79,14 +81,14 @@ split(11)
 ```
 
 ## 解析目录
-- [首页](/)
-    - [vue源码解析（基于2.6.11版本）](/vue-2.x（2.6.11）)
-        - [compiler（编译相关）](/vue-2.x（2.6.11）/compiler)
-        - [core（核心代码）](/vue-2.x（2.6.11）/core)
-        - [platforms（不同平台的支持）](/vue-2.x（2.6.11）/platforms)
-        - [server（服务端渲染）](/vue-2.x（2.6.11）/server)
-        - [sfc（.vue 文件解析）](/vue-2.x（2.6.11）/sfc)
-        - [shared（共享代码）](/vue-2.x（2.6.11）/shared)
+- [首页](https://github.com/maxiaoqu/sourceCode-analyzing)
+    - [vue源码解析（基于2.6.11版本）](/vue-2.6.11)
+        - [compiler（编译相关）](/vue-2.6.11/compiler)
+        - [core（核心代码）](/vue-2.6.11/core)
+        - [platforms（不同平台的支持）](/vue-2.6.11/platforms)
+        - [server（服务端渲染）](/vue-2.6.11/server)
+        - [sfc（.vue 文件解析）](/vue-2.6.11/sfc)
+        - [shared（共享代码）](/vue-2.6.11/shared)
 
 
 ## 源码目录详细说明
