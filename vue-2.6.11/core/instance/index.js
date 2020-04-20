@@ -24,15 +24,21 @@ function Vue (options) {
   this._init(options)
 }
 
-// 在vue的原型上添加了_init方法。在执行new Vue()的时候，this._init(options)被执行
+// 在vue的原型上添加了_init方法。
+// 在执行new Vue()的时候，this._init(options)被执行
 initMixin(Vue)
-// 在vue的原型上定义了属性: $data、$props，方法：$set、$delete、$watch
+// 在vue的原型上定义了
+// 属性: $data、$props，
+// 方法：$set、$delete、$watch
 stateMixin(Vue)
-// 在原型上添加了四个方法: $on $once $off $emit
+// 在原型上添加了
+// 四个方法: $on $once $off $emit
 eventsMixin(Vue)
-// 在Vue.prototye上添加了三个方法：_update $forceUpdate $destory
+// 在Vue.prototye上添加了
+// 三个方法：_update $forceUpdate $destory
 lifecycleMixin(Vue)
-// 在原型上添加了方法：$nextTick _render _o _n _s _l _t _q _i _m _f _k _b _v _e _u _g _d _p
+// 在原型上添加了
+// 方法：$nextTick _render _o _n _s _l _t _q _i _m _f _k _b _v _e _u _g _d _p
 renderMixin(Vue)
 
 export default Vue
